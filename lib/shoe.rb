@@ -4,8 +4,8 @@ class Shoe
   end
 
   def cobble
-    puts "The shoe has been repaired."
-    shoe[:condition] = "new"
+    puts "Your shoe is as good as new."
+    :condition = "new"
   end
 
 
