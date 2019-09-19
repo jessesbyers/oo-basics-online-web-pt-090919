@@ -15,4 +15,5 @@ class Shoe
 
   if cobble
     shoe[:condition] = "new"
+  end
 end
