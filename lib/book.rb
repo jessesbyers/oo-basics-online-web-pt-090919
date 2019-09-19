@@ -16,9 +16,8 @@ class Book
   end
 
   def turn_page(page_count)
+    puts "Flipping the page...wow, you read fast!"
   end
-
-
 
   attr_accessor :title
   attr_accessor :author
