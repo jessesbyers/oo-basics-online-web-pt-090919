@@ -15,7 +15,7 @@ class Book
     @genre = genre
   end
 
-  def turn_page(page_count)
+  def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
 
