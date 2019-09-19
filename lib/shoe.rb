@@ -3,6 +3,12 @@ class Shoe
     @brand = brand
   end
 
+  def cobble
+    puts "The shoe has been repaired."
+    shoe[:condition] = "new"
+  end
+
+
 
   attr_accessor :brand
   attr_accessor :color
