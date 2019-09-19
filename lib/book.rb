@@ -7,15 +7,18 @@ class Book
     @author = author
   end
 
+  def page_count(page_count)
+    @page_count = page_count
+  end
+
+  def genre(genre)
+    @genre = genre
+  end
+
+
   attr_accessor :title
   attr_accessor :author
+  attr_accessor :page_count
+  attr_accessor :genre
 
 end
-
-
-# @page_count = page_count
-# @genre = genre
-
-
-# attr_accessor :page_count
-# attr_accessor :genre
