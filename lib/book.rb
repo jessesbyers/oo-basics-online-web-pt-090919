@@ -15,6 +15,10 @@ class Book
     @genre = genre
   end
 
+  def turn_page(page_count)
+  end
+
+
 
   attr_accessor :title
   attr_accessor :author
